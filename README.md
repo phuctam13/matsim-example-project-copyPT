@@ -1,7 +1,9 @@
 This is the MATSim to Unity Converter for the population files.
+
 You can run the Converter from the class \src\main\java\org\matsim\BachelorArbeit\RunBachelorEventHandler
+
 Just load in the path for the population file and choose the output folder
-It will 
+It will take all vehicles from the population file and will create a xml file which the Unity MATSim project can read
 
 
 # matsim-example-project
