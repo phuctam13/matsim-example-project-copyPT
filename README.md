@@ -1,3 +1,9 @@
+This is the MATSim to Unity Converter for the population files.
+You can run the Converter from the class \src\main\java\org\matsim\BachelorArbeit\RunBachelorEventHandler
+Just load in the path for the population file and choose the output folder
+It will 
+
+
 # matsim-example-project
 
 A small example of how to use MATSim as a library.
