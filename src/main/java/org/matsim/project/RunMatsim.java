@@ -45,8 +45,11 @@ public class RunMatsim{
 		// ---
 
 		Scenario scenario = ScenarioUtils.loadScenario(config) ;
+
+		//scenario.getNetwork().getLinks().get(Id.createLinkId(5)).setCapacity(10);
 		
 		// possibly modify scenario here
+		/*
 		Id<Person> interestingPersonID = Id.createPersonId(1);
 		List<Id<Person>> personsToRemove = new ArrayList<>();
 
@@ -82,7 +85,7 @@ public class RunMatsim{
 		scenario.getPopulation().addPerson(person2);
 
 		System.out.println("Population size = " + scenario.getPopulation().getPersons().size());
-
+*/
 		// ---
 		
 		Controler controler = new Controler( scenario ) ;
